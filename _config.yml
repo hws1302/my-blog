@@ -1,0 +1,23 @@
+# Dependencies
+plugins: [jekyll-paginate]
+highlighter:      pygments
+
+
+# Permalinks
+permalink:        /:year/:month/:day/:title/
+
+# Setup
+title:            Title 
+tagline:          'A Jekyll theme'
+description:      'My coding journey'
+url:              http://hs@harryshaw.info
+baseurl:          /
+
+author:
+  name:           'Harry Shaw'
+  email:           hs@harryshaw.info
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
